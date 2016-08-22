@@ -1,0 +1,15 @@
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\bin\Release\wpfsavefile.exe.config
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\bin\Release\wpfsavefile.exe
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\bin\Release\wpfsavefile.pdb
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\MainWindow.g.cs
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\App.g.cs
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile_MarkupCompile.cache
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile_MarkupCompile.lref
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\MainWindow.baml
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.g.resources
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.Properties.Resources.resources
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.csproj.GenerateResource.Cache
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.exe
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.pdb
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\bin\Release\Windows.winmd
+C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.csprojResolveAssemblyReference.cache
