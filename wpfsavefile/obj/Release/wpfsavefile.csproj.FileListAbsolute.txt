@@ -12,4 +12,3 @@ C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.csp
 C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.exe
 C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.pdb
 C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\bin\Release\Windows.winmd
-C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Release\wpfsavefile.csprojResolveAssemblyReference.cache
