@@ -9,6 +9,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Security.Credentials;
 using Windows.Storage;
+using Windows.Storage.Pickers;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -146,6 +147,24 @@ namespace uwpsavefile
             Status.Text = passwordCredential.UserName + " ";
             passwordCredential.RetrievePassword();
             Status.Text += passwordCredential.Password;
+        }
+
+        private async void OpenFilePicker_Click(object sender, RoutedEventArgs e)
+        {
+            //Create the picker object
+            FileOpenPicker openPicker = new FileOpenPicker();
+            openPicker.ViewMode = PickerViewMode.Thumbnail;
+            openPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
+            // Users expect to have a filtered view of their folders 
+            openPicker.FileTypeFilter.Add(".jpg");
+            openPicker.FileTypeFilter.Add(".png");
+            // Open the picker for the user to pick a file
+            StorageFile file = await openPicker.PickSingleFileAsync();
+            if (file != null)
+            {
+                Status.Text = file.Path;
+            } 
+
         }
     }
 }

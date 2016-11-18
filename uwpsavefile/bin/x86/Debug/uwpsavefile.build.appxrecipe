@@ -9,7 +9,6 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3cc8626-b376-4dc5-918a-34c82fb46311</PackageIdentityName>
-    <PackageIdentityPublisher>CN=freistli</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
