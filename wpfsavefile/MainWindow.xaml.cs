@@ -14,7 +14,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Windows;
+using Windows.Data.Xml.Dom;
 using Windows.Storage;
+using Windows.UI.Notifications;
 
 namespace wpfsavefile
 {
@@ -28,8 +30,11 @@ namespace wpfsavefile
             InitializeComponent();
             try
             {
-                if (ApplicationData.Current.LocalSettings.Values.ContainsKey("lastfilepath"))
-                    label.Content = ApplicationData.Current.LocalSettings.Values["lastfilepath"] ;
+                var type = "ApplicationData";
+                var prop = "Current";
+                if (Windows.Foundation.Metadata.ApiInformation.IsPropertyPresent(type,prop))
+                    if (ApplicationData.Current.LocalSettings.Values.ContainsKey("lastfilepath"))
+                        label.Content = ApplicationData.Current.LocalSettings.Values["lastfilepath"] ;
             }
             catch(Exception ex)
             {
@@ -39,7 +44,7 @@ namespace wpfsavefile
 
         private void saveToLocal_Click(object sender, RoutedEventArgs e)
         {
-            string fileName = @"F:\Output\SomeTextFile" + Guid.NewGuid().ToString() + ".txt";
+            string fileName = @"c:\output\SomeTextFile" + Guid.NewGuid().ToString() + ".txt";
             try
             {
                 using (StreamWriter sw = new StreamWriter(fileName))
@@ -51,6 +56,37 @@ namespace wpfsavefile
                     sw.WriteLine("Done");
                     label.Content = fileName;
                     ApplicationData.Current.LocalSettings.Values["lastfilepath"] = label.Content;
+
+
+                    string toastStr =
+                                    "<toast>" +
+                                    "   <visual>" +
+                                    "       <binding template = 'ToastGeneric'>" +
+                                    "       <image src='ms-appx:///Assets/SplashScreen.png' alt='Splash'/>" +
+                                    "          <text>Cool Notification</text>" +
+                                    "          <text>Select snooze time.</text>" +
+                                    "          </binding>" +
+                                    "   </visual>" +
+                                    "   <actions>" +
+                                    "       <input id = 'snoozeTime' type = 'selection' defaultSelection = '10' >" +
+                                    "           <selection id = '1' content = '1 minute' />" +
+                                    "           <selection id = '5' content = '5 minutes' />" +
+                                    "           <selection id = '10' content = '10 minutes' />" +
+                                    "           <selection id = '30' content = '30 minutes' />" +
+                                    "           <selection id = '60' content = '1 hour' />" +
+                                    "       </input>" +
+                                    "       <action activationType = 'system' arguments = 'snooze' hint-inputId = 'snoozeTime' content = '' />" +
+                                    "       <action activationType = 'system' arguments = 'dismiss' content = '' />" +
+                                    "   </actions>" +
+                                    "</toast>";
+
+                    XmlDocument toastXml = new XmlDocument();
+                    toastXml.LoadXml(toastStr);
+
+                    ToastNotification toast = new ToastNotification(toastXml);
+
+                    ToastNotificationManager.CreateToastNotifier().Show(toast);
+
                 }
             }
             catch (Exception ex)
@@ -92,6 +128,16 @@ namespace wpfsavefile
                 label.Content = ex.Message;
 
             }
+        }
+      
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Windows.Storage.StorageFolder localCacheFolder = Windows.Storage.ApplicationData.Current.LocalCacheFolder;
+
+            Task.Run(async() => localCacheFolder.CreateFileAsync("dataFile.txt", CreationCollisionOption.ReplaceExisting)).Wait();
+            
+            label.Content = localCacheFolder.Path;
         }
     }
    

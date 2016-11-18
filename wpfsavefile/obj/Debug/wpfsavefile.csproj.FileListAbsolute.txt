@@ -26,4 +26,3 @@ C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.g.res
 C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.Properties.Resources.resources
 C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.csproj.GenerateResource.Cache
 C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\bin\Debug\Windows.winmd
-C:\Users\freistli\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.csprojResolveAssemblyReference.cache
