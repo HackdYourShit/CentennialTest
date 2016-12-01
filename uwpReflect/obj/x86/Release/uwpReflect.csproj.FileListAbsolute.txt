@@ -345,3 +345,4 @@ C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\obj\x86\Release\ilc\intermed
 C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\obj\x86\Release\ilc\intermediate\uwpReflect.McgInterop\PInvoke.g.cs
 C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\obj\x86\Release\ilc\intermediate\uwpReflect.McgInterop\SafeTypes.g.cs
 C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\obj\x86\Release\ilc\intermediate\uwpReflect.McgInterop\SharedStubs.g.cs
+C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\obj\x86\Release\uwpReflect.csprojResolveAssemblyReference.cache

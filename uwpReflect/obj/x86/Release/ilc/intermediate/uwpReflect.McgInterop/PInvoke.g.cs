@@ -283,6 +283,180 @@ namespace McgInterop
 			// Return
 			return unsafe___value;
 		}
+
+		// Signature, FormatMessage, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [out] [Mcg.CodeGen.StringBuilderMarshaller] System_Text_StringBuilder__wchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableArrayMarshaller] rg_System_IntPtr____w64 int *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FormatMessage")]
+		public static int FormatMessage(
+					int dwFlags, 
+					global::System.IntPtr lpSource_mustBeNull, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					global::System.Text.StringBuilder lpBuffer, 
+					int nSize, 
+					global::System.IntPtr[] arguments)
+		{
+			// Setup
+			ushort* unsafe_lpBuffer = default(ushort*);
+			global::System.IntPtr* unsafe_arguments;
+			int unsafe___value;
+			try
+			{
+				// Marshalling
+				if (lpBuffer == null)
+					unsafe_lpBuffer = null;
+				else
+				{
+					unsafe_lpBuffer = (ushort*)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(lpBuffer.Capacity * 2 
+										+ 2)));
+					if (unsafe_lpBuffer == null)
+						throw new global::System.OutOfMemoryException();
+				}
+				if (unsafe_lpBuffer != null)
+					global::System.Runtime.InteropServices.McgMarshal.StringBuilderToUnicodeString(
+										lpBuffer, 
+										unsafe_lpBuffer
+									);
+				fixed (global::System.IntPtr* pinned_arguments = global::McgInterop.McgCoreHelpers.GetArrayForCompat(arguments))
+				{
+					unsafe_arguments = (global::System.IntPtr*)pinned_arguments;
+					// Call to native method
+					unsafe___value = global::McgInterop.api_ms_win_core_localization_l1_2_0_dll_PInvokes.FormatMessage(
+										dwFlags, 
+										lpSource_mustBeNull, 
+										dwMessageId, 
+										dwLanguageId, 
+										unsafe_lpBuffer, 
+										nSize, 
+										unsafe_arguments
+									);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				}
+				if (lpBuffer != null)
+					global::System.Runtime.InteropServices.McgMarshal.UnicodeStringToStringBuilder(
+										unsafe_lpBuffer, 
+										lpBuffer
+									);
+				// Return
+				return unsafe___value;
+			}
+			finally
+			{
+				// Cleanup
+				if (unsafe_lpBuffer != null)
+					global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_lpBuffer);
+			}
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-processenvironment-l1-1-0.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_processenvironment_l1_1_0_dll
+	{
+		// Signature, GetCurrentDirectory, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [Mcg.CodeGen.StringBuilderMarshaller] System_Text_StringBuilder__wchar_t *, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetCurrentDirectory")]
+		public static int GetCurrentDirectory(
+					int nBufferLength, 
+					global::System.Text.StringBuilder lpBuffer)
+		{
+			// Setup
+			ushort* unsafe_lpBuffer = default(ushort*);
+			int unsafe___value;
+			try
+			{
+				// Marshalling
+				if (lpBuffer == null)
+					unsafe_lpBuffer = null;
+				else
+				{
+					unsafe_lpBuffer = (ushort*)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(lpBuffer.Capacity * 2 
+										+ 2)));
+					if (unsafe_lpBuffer == null)
+						throw new global::System.OutOfMemoryException();
+				}
+				// Call to native method
+				unsafe___value = global::McgInterop.api_ms_win_core_processenvironment_l1_1_0_dll_PInvokes.GetCurrentDirectory(
+									nBufferLength, 
+									unsafe_lpBuffer
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				if (lpBuffer != null)
+					global::System.Runtime.InteropServices.McgMarshal.UnicodeStringToStringBuilder(
+										unsafe_lpBuffer, 
+										lpBuffer
+									);
+				// Return
+				return unsafe___value;
+			}
+			finally
+			{
+				// Cleanup
+				if (unsafe_lpBuffer != null)
+					global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_lpBuffer);
+			}
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-file-l1-1-0.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_file_l1_1_0_dll
+	{
+		// Signature, GetLongPathName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.UnicodeStringMarshaller] string__wchar_t *, [fwd] [out] [Mcg.CodeGen.StringBuilderMarshaller] System_Text_StringBuilder__wchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetLongPathName")]
+		public static int GetLongPathName(
+					string path, 
+					global::System.Text.StringBuilder longPathBuffer, 
+					int bufferLength)
+		{
+			// Setup
+			ushort* unsafe_path = default(ushort*);
+			ushort* unsafe_longPathBuffer = default(ushort*);
+			int unsafe___value;
+			try
+			{
+				// Marshalling
+				fixed (char* pinned_path = path)
+				{
+					unsafe_path = (ushort*)pinned_path;
+					if (longPathBuffer == null)
+						unsafe_longPathBuffer = null;
+					else
+					{
+						unsafe_longPathBuffer = (ushort*)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(longPathBuffer.Capacity * 2 
+											+ 2)));
+						if (unsafe_longPathBuffer == null)
+							throw new global::System.OutOfMemoryException();
+					}
+					// Call to native method
+					unsafe___value = global::McgInterop.api_ms_win_core_file_l1_1_0_dll_PInvokes.GetLongPathName(
+										unsafe_path, 
+										unsafe_longPathBuffer, 
+										bufferLength
+									);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+					if (longPathBuffer != null)
+						global::System.Runtime.InteropServices.McgMarshal.UnicodeStringToStringBuilder(
+											unsafe_longPathBuffer, 
+											longPathBuffer
+										);
+				}
+				// Return
+				return unsafe___value;
+			}
+			finally
+			{
+				// Cleanup
+				if (unsafe_longPathBuffer != null)
+					global::System.Runtime.InteropServices.ExternalInterop.SafeCoTaskMemFree(unsafe_longPathBuffer);
+			}
+		}
 	}
 
 	/// <summary>
@@ -450,6 +624,36 @@ namespace McgInterop
 					uint CodePage, 
 					uint dwFlags, 
 					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
+
+		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", EntryPoint="FormatMessageW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int FormatMessage(
+					int dwFlags, 
+					global::System.IntPtr lpSource_mustBeNull, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					ushort* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr* arguments);
+	}
+
+	public unsafe static partial class api_ms_win_core_processenvironment_l1_1_0_dll_PInvokes
+	{
+		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-processenvironment-l1-2-0.dll", EntryPoint="GetCurrentDirectoryW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetCurrentDirectory(
+					int nBufferLength, 
+					ushort* lpBuffer);
+	}
+
+	public unsafe static partial class api_ms_win_core_file_l1_1_0_dll_PInvokes
+	{
+		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-file-l1-2-1.dll", EntryPoint="GetLongPathNameW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetLongPathName(
+					ushort* path, 
+					ushort* longPathBuffer, 
+					int bufferLength);
 	}
 
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll_PInvokes

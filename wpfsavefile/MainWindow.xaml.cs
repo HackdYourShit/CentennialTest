@@ -35,10 +35,13 @@ namespace wpfsavefile
                 if (Windows.Foundation.Metadata.ApiInformation.IsPropertyPresent(type,prop))
                     if (ApplicationData.Current.LocalSettings.Values.ContainsKey("lastfilepath"))
                         label.Content = ApplicationData.Current.LocalSettings.Values["lastfilepath"] ;
+               label.Content = Directory.GetCurrentDirectory();
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 label.Content = ex.Message;
+                label.Content = Directory.GetCurrentDirectory(); 
             }
         }
 

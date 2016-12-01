@@ -37,7 +37,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
-    <build:Item Name="ProjectGUID" Value="{79c8ed46-5aec-48f5-beb1-e9e4d7f8c3c7}" />
+    <build:Item Name="ProjectGUID" Value="{79C8ED46-5AEC-48F5-BEB1-E9E4D7F8C3C7}" />
     <build:Item Name="ilc.exe" Version="1.4.24208.00 built by: PROJECTNREL" />
     <build:Item Name="OptimizingToolset" Value="ilc.exe" />
     <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="true" />

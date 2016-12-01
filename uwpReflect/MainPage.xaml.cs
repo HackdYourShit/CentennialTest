@@ -46,6 +46,9 @@ namespace uwpReflect
             //BindingFlags.Instance表示是实例方法，也就是不是static方法
             MethodInfo Haha = type.GetMethod("test2", BindingFlags.NonPublic | BindingFlags.Instance);
             Haha.Invoke(this, null);
+
+            Status.Text +="\n"+  Directory.GetCurrentDirectory();
+
         }
     }
 }

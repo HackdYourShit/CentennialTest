@@ -2404,10 +2404,10 @@ namespace McgInterop
 		//
 	// Interop Stub Data
 		//
-	//     + Total Stubs = 332
-	//     + Total Forward Stubs = 223
+	//     + Total Stubs = 335
+	//     + Total Forward Stubs = 226
 	//     + Total Reverse Stubs = 109 (93 shared stubs, 16 unshared stubs, 79 shared hits)
-	//     + Unshared Forward Stubs = 1615
+	//     + Unshared Forward Stubs = 1618
 	//     + Shared Forward Stubs = 470
 	//     + Shared Target Forward Stubs = 47
 	//     + Shared Target Forward Stubs Cache Hit = 423

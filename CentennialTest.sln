@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfsavefile", "wpfsavefile\
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup2", "Setup2\Setup2.isproj", "{72664F39-B94B-447D-82A9-86813A799B66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uwpsavefile", "uwpsavefile\uwpsavefile.csproj", "{FF43BFB6-918C-4134-BFBB-E63CB2719A00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uwpSavefile", "uwpsavefile\uwpSavefile.csproj", "{FF43BFB6-918C-4134-BFBB-E63CB2719A00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uwpSerializer", "uwpSerializer\uwpSerializer.csproj", "{3D72A2C4-9C82-45F1-A74A-D208D19E02E4}"
 EndProject

@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-24T06:13:48.894</Modified>
+      <Modified>2016-12-01T08:44:18.439</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -76,15 +76,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\uwpReflect.dll">
       <PackagePath>uwpReflect.dll</PackagePath>
-      <Modified>2016-11-24T06:13:48.748</Modified>
+      <Modified>2016-12-01T08:44:18.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\uwpReflect.exe">
       <PackagePath>uwpReflect.exe</PackagePath>
-      <Modified>2016-11-24T06:13:48.879</Modified>
+      <Modified>2016-12-01T08:44:18.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\uwpReflect.pdb">
       <PackagePath>uwpReflect.pdb</PackagePath>
-      <Modified>2016-11-24T06:13:48.864</Modified>
+      <Modified>2016-12-01T08:44:18.413</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
