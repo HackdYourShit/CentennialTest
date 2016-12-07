@@ -60,7 +60,6 @@ namespace wpfsavefile
                     label.Content = fileName;
                     ApplicationData.Current.LocalSettings.Values["lastfilepath"] = label.Content;
 
-
                     string toastStr =
                                     "<toast>" +
                                     "   <visual>" +

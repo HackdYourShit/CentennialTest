@@ -53,6 +53,30 @@ using System.Runtime.InteropServices.WindowsRuntime;
 namespace McgInterop
 {
 	/// <summary>
+	/// P/Invoke class for module 'user32.dll'
+	/// </summary>
+	public unsafe static partial class user32_dll
+	{
+		// Signature, GetCursorPos, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableStructMarshaller] uwpReflect_POINT__uwpReflect__uwpReflect__POINT__uwpReflect, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("uwpReflect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "uwpReflect.MainPage", "GetCursorPos")]
+		public static bool GetCursorPos(out global::uwpReflect.POINT__uwpReflect lpPoint)
+		{
+			// Setup
+			global::uwpReflect.POINT__uwpReflect unsafe_lpPoint;
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::McgInterop.user32_dll_PInvokes.GetCursorPos(&(unsafe_lpPoint));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			lpPoint = unsafe_lpPoint;
+			// Return
+			return unsafe___value != 0;
+		}
+	}
+
+	/// <summary>
 	/// P/Invoke class for module '[MRT]'
 	/// </summary>
 	public unsafe static partial class _MRT_
@@ -545,6 +569,13 @@ namespace McgInterop
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_bufferMarshalerPtr)));
 			}
 		}
+	}
+
+	public unsafe static partial class user32_dll_PInvokes
+	{
+		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("user32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetCursorPos(global::uwpReflect.POINT__uwpReflect* lpPoint);
 	}
 
 	public unsafe static partial class _MRT__PInvokes

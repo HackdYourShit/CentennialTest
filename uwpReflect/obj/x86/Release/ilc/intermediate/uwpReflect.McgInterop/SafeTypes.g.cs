@@ -376,6 +376,16 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	}
 }
 
+namespace uwpReflect
+{
+	[global::System.Runtime.InteropServices.McgRedirectedType("uwpReflect.POINT,uwpReflect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")]
+	public unsafe partial struct POINT__uwpReflect
+	{
+		public int X;
+		public int Y;
+	}
+}
+
 namespace Windows.ApplicationModel
 {
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.ISuspendingEventArgs))]
@@ -1229,6 +1239,123 @@ namespace Windows.ApplicationModel.Resources.Core
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IResourceManager2
 	{
+	}
+}
+
+namespace Windows.Devices.Input
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseDevice))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class MouseDevice : global::System.__ComObject, global::Windows.Devices.Input.IMouseDevice
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "MouseMoved")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_MouseMoved(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs> handler)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.Devices.Input.IMouseDevice__Impl.StubClass.add_MouseMoved(
+								this, 
+								handler
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "MouseMoved")]
+		public void remove_MouseMoved(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken cookie)
+		{
+			global::Windows.Devices.Input.IMouseDevice__Impl.StubClass.remove_MouseMoved(
+								this, 
+								cookie
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Devices.Input.MouseDevice GetForCurrentView()
+		{
+			global::Windows.Devices.Input.MouseDevice retval;
+			retval = __Factory_Windows_Devices_Input__IMouseDeviceStatics_GetForCurrentView("Windows.Devices.Input.MouseDevice");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.Devices.Input.MouseDevice __Factory_Windows_Devices_Input__IMouseDeviceStatics_GetForCurrentView(string typeName)
+		{
+			global::Windows.Devices.Input.MouseDevice __pRetVal;
+			__pRetVal = global::Windows.Devices.Input.IMouseDeviceStatics__Impl.StubClass.GetForCurrentView(global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+									typeName, 
+									typeof(global::Windows.Devices.Input.IMouseDeviceStatics).TypeHandle
+								));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public MouseDevice(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseEventArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class MouseEventArgs : global::System.__ComObject, global::Windows.Devices.Input.IMouseEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MouseDelta")]
+		public global::Windows.Devices.Input.MouseDelta get_MouseDelta()
+		{
+			global::Windows.Devices.Input.MouseDelta __retVal = global::Windows.Devices.Input.IMouseEventArgs__Impl.StubClass.get_MouseDelta(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public MouseEventArgs(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IMouseDeviceStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Devices.Input.MouseDevice GetForCurrentView();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IMouseDevice
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "MouseMoved")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_MouseMoved(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs> handler);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "MouseMoved")]
+		void remove_MouseMoved(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken cookie);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IMouseEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MouseDelta")]
+		global::Windows.Devices.Input.MouseDelta get_MouseDelta();
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe struct MouseDelta
+	{
+		public int X;
+		public int Y;
 	}
 }
 

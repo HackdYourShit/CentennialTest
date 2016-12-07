@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="edd6227b-fb44-40c5-abcb-a9e30aa634ca" Publisher="CN=freistli" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="edd6227b-fb44-40c5-abcb-a9e30aa634ca" Publisher="CN=freistli" Version="1.0.1.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="edd6227b-fb44-40c5-abcb-a9e30aa634ca" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>uwpReflect</DisplayName>
@@ -26,7 +26,8 @@
   <Applications>
     <Application Id="App" Executable="uwpReflect.exe" EntryPoint="uwpReflect.App">
       <uap:VisualElements DisplayName="uwpReflect" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="uwpReflect" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+        </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
@@ -40,7 +41,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
-    <build:Item Name="ProjectGUID" Value="{79c8ed46-5aec-48f5-beb1-e9e4d7f8c3c7}" />
+    <build:Item Name="ProjectGUID" Value="{79C8ED46-5AEC-48F5-BEB1-E9E4D7F8C3C7}" />
     <build:Item Name="ilc.exe" Version="1.4.24208.00 built by: PROJECTNREL" />
     <build:Item Name="OptimizingToolset" Value="ilc.exe" />
     <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="true" />

@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Windows;
+using System.Windows.Input;
+using Windows.Devices.Input;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -21,11 +25,32 @@ namespace uwpReflect
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    /// 
+
+    [StructLayout(LayoutKind.Sequential)]
+    public struct POINT
+    {
+        public int X;
+        public int Y;
+
+        public POINT(int x, int y)
+        {
+            this.X = x;
+            this.Y = y;
+        }
+
+    }
     public sealed partial class MainPage : Page
     {
+        [DllImport("user32.dll", SetLastError = true, ExactSpelling = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        static extern bool GetCursorPos(out POINT lpPoint);
+        static POINT pt;
         public MainPage()
         {
             this.InitializeComponent();
+            MouseDevice mouseDevice = Windows.Devices.Input.MouseDevice.GetForCurrentView();
+            mouseDevice.MouseMoved += OnMouseMoved;
         }
 
         private void test1()
@@ -37,17 +62,50 @@ namespace uwpReflect
         {
             Status.Text += "\ntest2 method is invoked!";
         }
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            Type mytype = this.GetType();
-            mytype.GetTypeInfo().GetDeclaredMethod("test1").Invoke(this, null);
+            try
+            {
+                Type mytype = this.GetType();
+                mytype.GetTypeInfo().GetDeclaredMethod("test1").Invoke(this, null);
 
-            Type type = this.GetType();
-            //BindingFlags.Instance表示是实例方法，也就是不是static方法
-            MethodInfo Haha = type.GetMethod("test2", BindingFlags.NonPublic | BindingFlags.Instance);
-            Haha.Invoke(this, null);
+                Type type = this.GetType();
+                //BindingFlags.Instance表示是实例方法，也就是不是static方法
+                MethodInfo Haha = type.GetMethod("test2", BindingFlags.NonPublic | BindingFlags.Instance);
+                Haha.Invoke(this, null);
 
-            Status.Text +="\n"+  Directory.GetCurrentDirectory();
+                Status.Text += "\n" + Directory.GetCurrentDirectory();
+               
+            }
+            catch (Exception ex)
+            {
+                Status.Text += "\n" + ex.Message;
+                Status.Text += "\n" + ex.StackTrace;
+            }
+
+        }
+
+        private void MousePosition_Click(object sender, RoutedEventArgs e)
+        {
+            POINT pt = new POINT();
+            GetCursorPos(out pt);
+            Status.Text += "\nMouse X:" + pt.X.ToString();
+            Status.Text += "\nMouse Y:" + pt.Y.ToString();
+
+            
+            //MouseDevice md = new Windows.Devices.Input.MouseDevice();
+            
+        }
+        
+
+    private void OnMouseMoved(MouseDevice sender, MouseEventArgs args)
+        {
+          
+                pt.X += args.MouseDelta.X;
+                pt.Y += args.MouseDelta.Y;
+
+            Status.Text = "\nMouse delta X:" + pt.X.ToString();
+            Status.Text += "\nMouse delta Y:" + pt.Y.ToString();
 
         }
     }

@@ -16,19 +16,19 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>76D70B96349AB35E610B1394E903EB7E8AA495F998065041BD732C6F23299830</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>edd6227b-fb44-40c5-abcb-a9e30aa634ca_1.0.0.0_x86__2dhr6hz02r3tt</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>82DE7F7AF790BCF83891A47DE225E8599A686DE180E6115B8C35D963420334F0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>edd6227b-fb44-40c5-abcb-a9e30aa634ca_1.0.1.0_x86__2dhr6hz02r3tt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>edd6227b-fb44-40c5-abcb-a9e30aa634ca_2dhr6hz02r3tt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>edd6227b-fb44-40c5-abcb-a9e30aa634ca</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=freistli</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.1.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-01T08:44:18.439</Modified>
+      <Modified>2016-12-07T16:35:32.648</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -72,19 +72,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-11-24T06:12:14.669</Modified>
+      <Modified>2016-12-07T16:10:15.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\uwpReflect.dll">
       <PackagePath>uwpReflect.dll</PackagePath>
-      <Modified>2016-12-01T08:44:18.309</Modified>
+      <Modified>2016-12-07T16:35:32.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\uwpReflect.exe">
       <PackagePath>uwpReflect.exe</PackagePath>
-      <Modified>2016-12-01T08:44:18.426</Modified>
+      <Modified>2016-12-07T16:35:32.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Release\ilc\uwpReflect.pdb">
       <PackagePath>uwpReflect.pdb</PackagePath>
-      <Modified>2016-12-01T08:44:18.413</Modified>
+      <Modified>2016-12-07T16:35:32.621</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

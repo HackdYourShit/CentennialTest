@@ -1,1 +1,1 @@
-C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\AppPackages\uwpReflect_1.0.0.0_x86_Test\uwpReflect_1.0.0.0_x86.appx
+C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\AppPackages\uwpReflect_1.0.2.0_x86_Test\uwpReflect_1.0.2.0_x86.appx

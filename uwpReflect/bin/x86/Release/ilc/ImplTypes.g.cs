@@ -699,7 +699,7 @@ namespace System
 					__value__retval = (global::Windows.System.Threading.TimerElapsedHandler)global::System.Runtime.InteropServices.McgModuleManager.ComInterfaceToDelegate(
 										((global::System.IntPtr)unsafe___value__retval), 
 										typeof(global::Windows.System.Threading.TimerElapsedHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget112>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget114>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Invoke)
 									);
 					// Return
 					return __value__retval;
@@ -756,7 +756,7 @@ namespace System
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget115>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget117>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -4342,12 +4342,12 @@ namespace System.Runtime.InteropServices
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetUnmarshalClass_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget146>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetUnmarshalClass__STUB),
-				pfnGetMarshalSizeMax_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget147>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetMarshalSizeMax__STUB),
-				pfnMarshalInterface_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget148>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.MarshalInterface__STUB),
-				pfnUnmarshalInterface_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget149>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.UnmarshalInterface__STUB),
+				pfnGetUnmarshalClass_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget148>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetUnmarshalClass__STUB),
+				pfnGetMarshalSizeMax_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget149>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetMarshalSizeMax__STUB),
+				pfnMarshalInterface_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget150>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.MarshalInterface__STUB),
+				pfnUnmarshalInterface_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget151>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.UnmarshalInterface__STUB),
 				pfnReleaseMarshalData_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget1>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.ReleaseMarshalData__STUB),
-				pfnDisconnectObject_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget124>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.DisconnectObject__STUB),
+				pfnDisconnectObject_System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget126>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.DisconnectObject__STUB),
 			}
 			#endif
 			;
@@ -6105,7 +6105,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetBuffer_System_Runtime_InteropServices_WindowsRuntime__IBufferByteAccess__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget145>(global::System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Vtbl.GetBuffer__STUB),
+				pfnGetBuffer_System_Runtime_InteropServices_WindowsRuntime__IBufferByteAccess__System_Runtime_WindowsRuntime = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget147>(global::System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Vtbl.GetBuffer__STUB),
 			}
 			#endif
 			;
@@ -6151,6 +6151,14 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 			}
 		}
+	}
+}
+
+namespace uwpReflect
+{
+	// uwpReflect.POINT__uwpReflect
+	public unsafe static class POINT__uwpReflect__Impl
+	{
 	}
 }
 
@@ -7180,6 +7188,200 @@ namespace Windows.ApplicationModel.Resources.Core
 		public unsafe partial struct Vtbl
 		{
 		}
+	}
+}
+
+namespace Windows.Devices.Input
+{
+	// Windows.Devices.Input.IMouseDeviceStatics
+	public unsafe static class IMouseDeviceStatics__Impl
+	{
+		// StubClass for 'Windows.Devices.Input.IMouseDeviceStatics'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.Devices.Input.MouseDevice GetForCurrentView(global::System.__ComObject __this)
+			{
+				global::Windows.Devices.Input.MouseDevice __ret = global::McgInterop.ForwardComSharedStubs.Func_TResult__<global::Windows.Devices.Input.IMouseDeviceStatics, global::Windows.Devices.Input.MouseDevice>(
+									__this, 
+									global::Windows.Devices.Input.IMouseDeviceStatics__Impl.Vtbl.idx_GetForCurrentView
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+		}
+
+		// DispatchClass for 'Windows.Devices.Input.IMouseDeviceStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseDeviceStatics))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Devices.Input.IMouseDeviceStatics
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::Windows.Devices.Input.MouseDevice global::Windows.Devices.Input.IMouseDeviceStatics.GetForCurrentView()
+			{
+				global::Windows.Devices.Input.MouseDevice __retVal = global::Windows.Devices.Input.IMouseDeviceStatics__Impl.StubClass.GetForCurrentView(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Devices.Input.IMouseDeviceStatics'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseDeviceStatics))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_GetForCurrentView = 6;
+		}
+	}
+
+	// Windows.Devices.Input.IMouseDevice
+	public unsafe static class IMouseDevice__Impl
+	{
+		// StubClass for 'Windows.Devices.Input.IMouseDevice'
+		public static partial class StubClass
+		{
+			// Signature, Windows.Devices.Input.IMouseDevice.add_MouseMoved, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_TypedEventHandler_2_Windows_Devices_Input_MouseDevice__Windows_Devices_Input_MouseEventArgs___Windows_Foundation__TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_MouseMoved(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs> handler)
+			{
+				// Setup
+				global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl** unsafe_handler = default(global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl**);
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken unsafe_cookie__retval;
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken cookie__retval;
+				int unsafe___return__;
+				try
+				{
+					// Marshalling
+					unsafe_handler = (global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
+										handler, 
+										typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs>).TypeHandle, 
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Invoke)
+									);
+					// Call to native method
+					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
+										__this, 
+										typeof(global::Windows.Devices.Input.IMouseDevice).TypeHandle, 
+										global::Windows.Devices.Input.IMouseDevice__Impl.Vtbl.idx_add_MouseMoved, 
+										unsafe_handler, 
+										&(unsafe_cookie__retval)
+									);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					cookie__retval = unsafe_cookie__retval;
+					// Return
+					return cookie__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_handler)));
+				}
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void remove_MouseMoved(
+						global::System.__ComObject __this, 
+						global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken cookie)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc__WindowsRuntime_EventRegistrationToken__<global::Windows.Devices.Input.IMouseDevice>(
+									__this, 
+									cookie, 
+									global::Windows.Devices.Input.IMouseDevice__Impl.Vtbl.idx_remove_MouseMoved
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// DispatchClass for 'Windows.Devices.Input.IMouseDevice'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseDevice))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Devices.Input.IMouseDevice
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Windows.Devices.Input.IMouseDevice.MouseMoved")]
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken global::Windows.Devices.Input.IMouseDevice.add_MouseMoved(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs> handler)
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.Devices.Input.IMouseDevice__Impl.StubClass.add_MouseMoved(
+									this, 
+									handler
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Windows.Devices.Input.IMouseDevice.MouseMoved")]
+			void global::Windows.Devices.Input.IMouseDevice.remove_MouseMoved(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken cookie)
+			{
+				global::Windows.Devices.Input.IMouseDevice__Impl.StubClass.remove_MouseMoved(
+									this, 
+									cookie
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// v-table for 'Windows.Devices.Input.IMouseDevice'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseDevice))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_add_MouseMoved = 6;
+			internal const int idx_remove_MouseMoved = 7;
+		}
+	}
+
+	// Windows.Devices.Input.IMouseEventArgs
+	public unsafe static class IMouseEventArgs__Impl
+	{
+		// StubClass for 'Windows.Devices.Input.IMouseEventArgs'
+		public static partial class StubClass
+		{
+			// Signature, Windows.Devices.Input.IMouseEventArgs.get_MouseDelta, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableStructMarshaller] Windows_Devices_Input_MouseDelta__Windows_Devices_Input__MouseDelta, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.Devices.Input.MouseDelta get_MouseDelta(global::System.__ComObject __this)
+			{
+				// Setup
+				global::Windows.Devices.Input.MouseDelta unsafe_value__retval;
+				global::Windows.Devices.Input.MouseDelta value__retval;
+				int unsafe___return__;
+				// Marshalling
+				// Call to native method
+				unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
+									__this, 
+									typeof(global::Windows.Devices.Input.IMouseEventArgs).TypeHandle, 
+									global::Windows.Devices.Input.IMouseEventArgs__Impl.Vtbl.idx_get_MouseDelta, 
+									&(unsafe_value__retval)
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				value__retval = unsafe_value__retval;
+				// Return
+				return value__retval;
+			}
+		}
+
+		// DispatchClass for 'Windows.Devices.Input.IMouseEventArgs'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseEventArgs))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.Devices.Input.IMouseEventArgs
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Devices.Input.IMouseEventArgs.MouseDelta")]
+			global::Windows.Devices.Input.MouseDelta global::Windows.Devices.Input.IMouseEventArgs.get_MouseDelta()
+			{
+				global::Windows.Devices.Input.MouseDelta __retVal = global::Windows.Devices.Input.IMouseEventArgs__Impl.StubClass.get_MouseDelta(this);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.Devices.Input.IMouseEventArgs'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Input.IMouseEventArgs))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_get_MouseDelta = 6;
+		}
+	}
+
+	// Windows.Devices.Input.MouseDelta
+	public unsafe static class MouseDelta__Impl
+	{
 	}
 }
 
@@ -8534,6 +8736,82 @@ namespace Windows.Foundation
 		}
 	}
 
+	// Windows.Foundation.TypedEventHandler<Windows.Devices.Input.MouseDevice,Windows.Devices.Input.MouseEventArgs>
+	public unsafe static class TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void Invoke(
+					this global::System.__ComObject __this, 
+					global::Windows.Devices.Input.MouseDevice sender, 
+					global::Windows.Devices.Input.MouseEventArgs args)
+		{
+			global::McgInterop.ForwardComSharedStubs.Proc_TArg0__TArg1__<global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs>, global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs>(
+								__this, 
+								sender, 
+								args, 
+								global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl.idx_Invoke
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		// v-table for 'Windows.Foundation.TypedEventHandler<Windows.Devices.Input.MouseDevice,Windows.Devices.Input.MouseEventArgs>'
+		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs>))]
+		public unsafe partial struct Vtbl
+		{
+			global::System.IntPtr pfnQueryInterface;
+			global::System.IntPtr pfnAddRef;
+			global::System.IntPtr pfnRelease;
+			// Windows_Foundation__TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V_
+			global::System.IntPtr pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V_;
+			internal const int idx_Invoke = 3;
+			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl.Windows_Foundation_TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl_Vtbl_McgRvaContainer), "RVA_Windows_Foundation_TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventA" +
+				"rgs_V___Impl_Vtbl_s_theCcwVtable")]
+			public static global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl s_theCcwVtable
+			#if false
+			 = new global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl() {
+				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
+				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
+				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
+				pfnInvoke_Windows_Foundation__TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget109>(global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl.Invoke__STUB),
+			}
+			#endif
+			;
+			public static global::System.IntPtr pNativeVtable;
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.NativeCallable]
+			static int Invoke__STUB(
+						global::System.IntPtr pComThis, 
+						global::Windows.Devices.Input.IMouseDevice__Impl.Vtbl** unsafe_sender, 
+						global::Windows.Devices.Input.IMouseEventArgs__Impl.Vtbl** unsafe_args)
+			{
+				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
+				global::System.IntPtr __methodPtr = global::McgInterop.Intrinsics.VirtualAddrOf<global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs>>(
+									__this, 
+									0
+								);
+				int __ret = ((int)global::McgInterop.ReverseComSharedStubs.Proc_TArg0__TArg1__<global::Windows.Devices.Input.MouseDevice, global::Windows.Devices.Input.MouseEventArgs>(
+									__this, 
+									unsafe_sender, 
+									unsafe_args, 
+									__methodPtr
+								));
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			private static class Windows_Foundation_TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl_Vtbl_McgRvaContainer
+			{
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(4, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
+				[global::System.Runtime.CompilerServices.MethodAddrFixup(12, typeof(global::Windows.Foundation.TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl.Vtbl), "Invoke__STUB")]
+				[global::System.Runtime.CompilerServices.NonArray]
+				static readonly byte[] RVA_Windows_Foundation_TypedEventHandler_A_Windows_Devices_Input_MouseDevice_j_Windows_Devices_Input_MouseEventArgs_V___Impl_Vtbl_s_theCcwVtable = new byte[] {
+						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+			}
+		}
+	}
+
 	// Windows.Foundation.AsyncOperationCompletedHandler<Windows.Storage.IStorageItem>
 	public unsafe static class AsyncOperationCompletedHandler_A_Windows_Storage_IStorageItem_V___Impl
 	{
@@ -8580,7 +8858,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_IStorageItem_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.IStorageItem>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget114>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_IStorageItem_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget116>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_IStorageItem_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -8716,7 +8994,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget125>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget127>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -8761,7 +9039,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<global::Windows.Storage.Streams.IBuffer, uint>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget126>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget128>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -8934,7 +9212,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget127>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget129>(global::Windows.Foundation.AsyncOperationProgressHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -9010,7 +9288,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget128>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget130>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_Windows_Storage_Streams_IBuffer_j_uint_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -9071,7 +9349,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationProgressHandler_A_uint_j_uint_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget129>(global::Windows.Foundation.AsyncOperationProgressHandler_A_uint_j_uint_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget131>(global::Windows.Foundation.AsyncOperationProgressHandler_A_uint_j_uint_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -9116,7 +9394,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<uint, uint>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget130>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget132>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -9288,7 +9566,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget131>(global::Windows.Foundation.AsyncOperationProgressHandler_A_uint_j_uint_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget133>(global::Windows.Foundation.AsyncOperationProgressHandler_A_uint_j_uint_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -9363,7 +9641,7 @@ namespace Windows.Foundation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget132>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget134>(global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -9424,7 +9702,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_bool_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<bool>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget133>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_bool_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget135>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_bool_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -9585,7 +9863,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_Streams_IRandomAccessStream_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Streams.IRandomAccessStream>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget134>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_Streams_IRandomAccessStream_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget136>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_Streams_IRandomAccessStream_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -9746,7 +10024,7 @@ namespace Windows.Foundation
 					unsafe_handler = (global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_StorageFile_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageFile>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget135>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_StorageFile_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget137>(global::Windows.Foundation.AsyncOperationCompletedHandler_A_Windows_Storage_StorageFile_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -12296,7 +12574,7 @@ namespace Windows.Foundation.Collections
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget108>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget110>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -12359,7 +12637,7 @@ namespace Windows.Foundation.Collections
 					unsafe_vhnd = (global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										vhnd, 
 										typeof(global::Windows.Foundation.Collections.MapChangedEventHandler<string, string>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget109>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget111>(global::Windows.Foundation.Collections.MapChangedEventHandler_A_string_j_string_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -15011,7 +15289,7 @@ namespace Windows.Foundation.Diagnostics
 					unsafe_handler = (global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::System.EventHandler<global::Windows.Foundation.Diagnostics.TracingStatusChangedEventArgs>).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget136>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget138>(global::System.EventHandler_A_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs_V___Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -16470,9 +16748,9 @@ namespace Windows.Storage.Streams
 				pfnGetIids = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
 				pfnGetRuntimeClassName = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
 				pfnGetTrustLevel = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_Capacity_Windows_Storage_Streams__IBuffer = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget123>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Capacity__STUB),
-				pfnget_Length_Windows_Storage_Streams__IBuffer = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget123>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Length__STUB),
-				pfnput_Length_Windows_Storage_Streams__IBuffer = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget124>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.put_Length__STUB),
+				pfnget_Capacity_Windows_Storage_Streams__IBuffer = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget125>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Capacity__STUB),
+				pfnget_Length_Windows_Storage_Streams__IBuffer = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget125>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.get_Length__STUB),
+				pfnput_Length_Windows_Storage_Streams__IBuffer = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget126>(global::Windows.Storage.Streams.IBuffer__Impl.Vtbl.put_Length__STUB),
 			}
 			#endif
 			;
@@ -16951,7 +17229,7 @@ namespace Windows.System.Threading
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_System_Threading__WorkItemHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget110>(global::Windows.System.Threading.WorkItemHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_System_Threading__WorkItemHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget112>(global::Windows.System.Threading.WorkItemHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -17022,7 +17300,7 @@ namespace Windows.System.Threading
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_System_Threading__TimerElapsedHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget111>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_System_Threading__TimerElapsedHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget113>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -17084,7 +17362,7 @@ namespace Windows.System.Threading
 					unsafe_handler = (global::Windows.System.Threading.TimerElapsedHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.System.Threading.TimerElapsedHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget112>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget114>(global::Windows.System.Threading.TimerElapsedHandler__Impl.Invoke)
 									);
 					unsafe_timer__retval = null;
 					// Call to native method
@@ -17202,7 +17480,7 @@ namespace Windows.System.Threading
 					unsafe_handler = (global::Windows.System.Threading.WorkItemHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										handler, 
 										typeof(global::Windows.System.Threading.WorkItemHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget122>(global::Windows.System.Threading.WorkItemHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget124>(global::Windows.System.Threading.WorkItemHandler__Impl.Invoke)
 									);
 					unsafe_operation__retval = null;
 					// Call to native method
@@ -17299,7 +17577,7 @@ namespace Windows.UI.Core
 					unsafe_agileCallback = (global::Windows.UI.Core.DispatchedHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										agileCallback, 
 										typeof(global::Windows.UI.Core.DispatchedHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget113>(global::Windows.UI.Core.DispatchedHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget115>(global::Windows.UI.Core.DispatchedHandler__Impl.Invoke)
 									);
 					unsafe_asyncAction__retval = null;
 					// Call to native method
@@ -22798,7 +23076,7 @@ namespace Windows.UI.Xaml
 					unsafe_value = (global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.WindowActivatedEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget137>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget139>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -22850,7 +23128,7 @@ namespace Windows.UI.Xaml
 					unsafe_value = (global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.WindowClosedEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget138>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget140>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -22902,7 +23180,7 @@ namespace Windows.UI.Xaml
 					unsafe_value = (global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.WindowSizeChangedEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget139>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget141>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -22954,7 +23232,7 @@ namespace Windows.UI.Xaml
 					unsafe_value = (global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget140>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget142>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -23177,7 +23455,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowActivatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget141>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowActivatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget143>(global::Windows.UI.Xaml.WindowActivatedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -23252,7 +23530,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowClosedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget142>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowClosedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget144>(global::Windows.UI.Xaml.WindowClosedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -23327,7 +23605,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowSizeChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget143>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowSizeChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget145>(global::Windows.UI.Xaml.WindowSizeChangedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -23402,7 +23680,7 @@ namespace Windows.UI.Xaml
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml__WindowVisibilityChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget144>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml__WindowVisibilityChangedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget146>(global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -27837,7 +28115,7 @@ namespace Windows.UI.Xaml.Controls
 					unsafe_value = (global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget116>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget118>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -27889,7 +28167,7 @@ namespace Windows.UI.Xaml.Controls
 					unsafe_value = (global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget117>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget119>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -27941,7 +28219,7 @@ namespace Windows.UI.Xaml.Controls
 					unsafe_value = (global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget118>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget120>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -27993,7 +28271,7 @@ namespace Windows.UI.Xaml.Controls
 					unsafe_value = (global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Vtbl**)global::System.Runtime.InteropServices.McgModuleManager.DelegateToComInterface(
 										value, 
 										typeof(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler).TypeHandle, 
-										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget116>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Invoke)
+										global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget118>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Invoke)
 									);
 					// Call to native method
 					unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
@@ -31481,7 +31759,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget119>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget121>(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -31556,7 +31834,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatingCancelEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget120>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigatingCancelEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget122>(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -31631,7 +31909,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationFailedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget121>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationFailedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget123>(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
@@ -31706,7 +31984,7 @@ namespace Windows.UI.Xaml.Navigation
 				pfnQueryInterface = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
 				pfnAddRef = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
 				pfnRelease = global::McgInterop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationStoppedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget119>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Vtbl.Invoke__STUB),
+				pfnInvoke_Windows_UI_Xaml_Navigation__NavigationStoppedEventHandler = global::McgInterop.Intrinsics.AddrOf<global::McgInterop.AddrOfIntrinsics.AddrOfTarget121>(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler__Impl.Vtbl.Invoke__STUB),
 			}
 			#endif
 			;
