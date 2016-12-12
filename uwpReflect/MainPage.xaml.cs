@@ -10,6 +10,7 @@ using System.Windows.Input;
 using Windows.Devices.Input;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -107,6 +108,21 @@ namespace uwpReflect
             Status.Text = "\nMouse delta X:" + pt.X.ToString();
             Status.Text += "\nMouse delta Y:" + pt.Y.ToString();
 
+        }
+
+        private void touchRectangle_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            PointerPoint pp = e.GetCurrentPoint(touchRectangle);
+            Status.Text = "\nToucch X:" + pp.Position.X.ToString();
+            Status.Text += "\nTouch Y:" + pp.Position.Y.ToString();
+
+        }
+
+        private void touchRectangle_PointerEntered_1(object sender, PointerRoutedEventArgs e)
+        {
+            PointerPoint pp = e.GetCurrentPoint(touchRectangle);
+            Status.Text = "\nTouch X:" + pp.Position.X.ToString();
+            Status.Text += "\nTouch Y:" + pp.Position.Y.ToString();
         }
     }
 }

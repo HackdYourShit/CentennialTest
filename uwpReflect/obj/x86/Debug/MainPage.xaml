@@ -7,9 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:ConnectionId='1' x:Name="button" Content="Button" HorizontalAlignment="Left" Height="45" Margin="47,122,0,0" VerticalAlignment="Top" Width="142"                     />
-        <TextBox x:ConnectionId='2' x:Name="Status" HorizontalAlignment="Left" Height="200" Margin="47,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="749"/>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,360,157">
+        <Button x:ConnectionId='1' x:Name="button" Content="Reflect" HorizontalAlignment="Left" Height="45" Margin="47,138,0,0" VerticalAlignment="Top" Width="142"                     />
+        <TextBox x:ConnectionId='2' x:Name="Status" HorizontalAlignment="Left" Height="103"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="616" ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="47,10,0,0"/>
+        <Button x:ConnectionId='3' x:Name="MousePosition" Content="Mouse Position" HorizontalAlignment="Left" Height="45" Margin="263,138,0,0" VerticalAlignment="Top" Width="142"                             
+                />
+        <Rectangle x:ConnectionId='4' x:Name="touchRectangle" Fill="Blue" HorizontalAlignment="Left" Height="100" Margin="47,205,0,0" VerticalAlignment="Top" Width="616"                                                 />
 
     </Grid>
 </Page>

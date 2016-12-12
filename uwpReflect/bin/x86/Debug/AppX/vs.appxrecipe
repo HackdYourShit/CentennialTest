@@ -9,32 +9,31 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>edd6227b-fb44-40c5-abcb-a9e30aa634ca</PackageIdentityName>
-    <PackageIdentityPublisher>CN=freistli</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>8CE5A89F7C0E7E7EFBDA54E04F40C0DACF184E2E295B6742CBDCDD8421DAE408</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>edd6227b-fb44-40c5-abcb-a9e30aa634ca_1.0.0.0_x86__2dhr6hz02r3tt</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>ECF16196E42AD6706B81A65F6145C14F522D22826CA90941F2AA42ACC3BADF4E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>edd6227b-fb44-40c5-abcb-a9e30aa634ca_1.0.2.0_x86__2dhr6hz02r3tt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>edd6227b-fb44-40c5-abcb-a9e30aa634ca_2dhr6hz02r3tt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>edd6227b-fb44-40c5-abcb-a9e30aa634ca</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=freistli</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-07T15:58:57.325</Modified>
+      <Modified>2016-12-12T07:07:27.164</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Debug\uwpReflect.exe">
       <PackagePath>entrypoint\uwpReflect.exe</PackagePath>
-      <Modified>2016-12-07T15:58:56.376</Modified>
+      <Modified>2016-12-12T07:07:26.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -488,7 +487,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Debug\uwpReflect.xr.xml">
       <PackagePath>uwpReflect.xr.xml</PackagePath>
-      <Modified>2016-12-07T15:41:49.909</Modified>
+      <Modified>2016-12-12T07:07:26.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -496,11 +495,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-12-07T15:41:52.242</Modified>
+      <Modified>2016-12-12T07:07:26.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\bin\x86\Debug\Core\uwpReflect.exe">
       <PackagePath>uwpReflect.exe</PackagePath>
-      <Modified>2016-12-07T15:58:57.308</Modified>
+      <Modified>2016-12-12T07:07:27.154</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
