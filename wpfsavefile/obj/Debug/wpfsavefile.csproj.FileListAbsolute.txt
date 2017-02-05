@@ -41,3 +41,4 @@ C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.Properties.
 C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.csproj.GenerateResource.Cache
 C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.exe
 C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.pdb
+C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.csprojResolveAssemblyReference.cache

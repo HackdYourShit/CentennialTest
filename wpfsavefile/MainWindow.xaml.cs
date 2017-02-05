@@ -178,6 +178,9 @@ namespace wpfsavefile
             else
             {
                 label.Content = "GetCurrentPackageFullName got length: " + "\n" + length;
+                name = new StringBuilder(length+1);
+                GetCurrentPackageFullName(ref length, ref name);
+                label.Content += "\n" + name;
             }
         }
 
