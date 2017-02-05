@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>FAUNA-179</Machine>
+    <Machine>FAUNA-180</Machine>
     <WindowsUser>freistli</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,13 +10,13 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>08ba56e9-4582-4ce1-904d-0bbabb942edc</PackageIdentityName>
     <PackageIdentityPublisher>CN=freistli</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>567AA20168E012F26D7A90F0CA69394E3C3CC99FB080F484BAED6533BB0B9C59</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>7ABAE69B37297E54D4349552C3B979F02EBB15B745A4391A293564D8251E3616</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>08ba56e9-4582-4ce1-904d-0bbabb942edc_1.0.0.0_x86__2dhr6hz02r3tt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>08ba56e9-4582-4ce1-904d-0bbabb942edc_2dhr6hz02r3tt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>08ba56e9-4582-4ce1-904d-0bbabb942edc</RegisteredPackageID>
@@ -25,92 +25,93 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-07T13:19:09.397</Modified>
+      <Modified>2017-01-21T16:15:46.351</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-21T00:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\ClrCompression.dll">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
-      <Modified>2015-07-22T15:08:02.000</Modified>
+      <Modified>2016-12-22T17:13:34.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-11-24T06:06:32.954</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-21T16:15:26.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\uwpApplicationBase.dll">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\uwpApplicationBase.dll">
       <PackagePath>uwpApplicationBase.dll</PackagePath>
-      <Modified>2016-12-07T13:19:09.243</Modified>
+      <Modified>2017-01-21T16:15:46.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\uwpApplicationBase.exe">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\uwpApplicationBase.exe">
       <PackagePath>uwpApplicationBase.exe</PackagePath>
-      <Modified>2016-12-07T13:19:09.373</Modified>
+      <Modified>2017-01-21T16:15:46.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\uwpApplicationBase.pdb">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\bin\x86\Release\ilc\uwpApplicationBase.pdb">
       <PackagePath>uwpApplicationBase.pdb</PackagePath>
-      <Modified>2016-12-07T13:19:09.359</Modified>
+      <Modified>2017-01-21T16:15:46.324</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
       <Name>Microsoft.NET.Native.Framework.1.3</Name>
-      <Version>1.3.23901.0</Version>
+      <Version>1.3.24201.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
       <Name>Microsoft.NET.Native.Framework.1.3</Name>
-      <Version>1.3.23901.0</Version>
+      <Version>1.3.24201.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
       <Name>Microsoft.NET.Native.Framework.1.3</Name>
-      <Version>1.3.23901.0</Version>
+      <Version>1.3.24201.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

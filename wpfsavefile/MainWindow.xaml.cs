@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -18,16 +19,28 @@ using Windows.Data.Xml.Dom;
 using Windows.Storage;
 using Windows.UI.Notifications;
 
+
 namespace wpfsavefile
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        public static extern uint GetCurrentPackageFullName(ref int length, [param: MarshalAs(UnmanagedType.LPWStr), Out()] out string name);
+
+        [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern int GetCurrentPackageFullName(ref int packageFullNameLength, ref StringBuilder packageFullName);
+
+        const uint APPMODEL_ERROR_NO_PACKAGE = 15700;
+        const uint ERROR_INSUFFICIENT_BUFFER = 122;
+
         public MainWindow()
         {
             InitializeComponent();
+        
             try
             {
                 var type = "ApplicationData";
@@ -35,14 +48,14 @@ namespace wpfsavefile
                 if (Windows.Foundation.Metadata.ApiInformation.IsPropertyPresent(type,prop))
                     if (ApplicationData.Current.LocalSettings.Values.ContainsKey("lastfilepath"))
                         label.Content = ApplicationData.Current.LocalSettings.Values["lastfilepath"] ;
-               label.Content = Directory.GetCurrentDirectory();
+               label.Content += Directory.GetCurrentDirectory();
 
             }
             catch (Exception ex)
             {
-                label.Content = ex.Message;
-                label.Content = Directory.GetCurrentDirectory(); 
+                label.Content += ex.GetType() + "\n" + ex.Message ;
             }
+           
         }
 
         private void saveToLocal_Click(object sender, RoutedEventArgs e)
@@ -140,6 +153,52 @@ namespace wpfsavefile
             Task.Run(async() => localCacheFolder.CreateFileAsync("dataFile.txt", CreationCollisionOption.ReplaceExisting)).Wait();
             
             label.Content = localCacheFolder.Path;
+        }
+
+        private void GetCurrentDirectory_Click(object sender, RoutedEventArgs e)
+        {
+            string currentDirectory = Directory.GetCurrentDirectory();
+            label.Content = currentDirectory;
+
+           
+        }
+
+        private void CheckIdentity_Click(object sender, RoutedEventArgs e)
+        {
+            int length = 0;
+            StringBuilder name = new StringBuilder();
+            int rc = GetCurrentPackageFullName(ref length, ref name);
+
+            if (rc != ERROR_INSUFFICIENT_BUFFER)
+            {
+                if (rc == APPMODEL_ERROR_NO_PACKAGE)
+                    label.Content = "Process has no package identity [15700]\n";
+                                   
+            }
+            else
+            {
+                label.Content = "GetCurrentPackageFullName got length: " + "\n" + length;
+            }
+        }
+
+        private void CheckIdentity_V2_Click(object sender, RoutedEventArgs e)
+        {
+            int length = 0;
+            String name = "";
+            uint rc = GetCurrentPackageFullName( ref length, out name);
+
+            if (rc != ERROR_INSUFFICIENT_BUFFER)
+            {
+                if (rc == APPMODEL_ERROR_NO_PACKAGE)
+                    label.Content = "Process has no package identity [15700]\n";
+
+            }
+            else
+            {
+                label.Content = "GetCurrentPackageFullName got length: " + "\n" + length;
+                GetCurrentPackageFullName(ref length, out name);
+                label.Content += "\n" + name;
+            }
         }
     }
    

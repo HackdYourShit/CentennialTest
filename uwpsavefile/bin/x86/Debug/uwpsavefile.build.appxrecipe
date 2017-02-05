@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>FAUNA-179</Machine>
+    <Machine>FAUNA-180</Machine>
     <WindowsUser>freistli</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3cc8626-b376-4dc5-918a-34c82fb46311</PackageIdentityName>
     <PackageIdentityPublisher>CN=freistli</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\projects\UWPProject\wpfsavefile\uwpsavefile\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\uwpsavefile.exe">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\uwpsavefile.exe">
       <PackagePath>entrypoint\uwpsavefile.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -337,208 +337,209 @@
     <AppxPackagedFile Include="C:\Users\freistli\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\BridgeOnline.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\BridgeOnline.png">
       <PackagePath>Assets\BridgeOnline.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-100.png">
       <PackagePath>Assets\NewStoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-125.png">
       <PackagePath>Assets\NewStoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-150.png">
       <PackagePath>Assets\NewStoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-200.png">
       <PackagePath>Assets\NewStoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\NewStoreLogo.scale-400.png">
       <PackagePath>Assets\NewStoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-100.png">
       <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-125.png">
       <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-150.png">
       <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-200.png">
       <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square310x310Logo.scale-400.png">
       <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-100.png">
       <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-125.png">
       <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-150.png">
       <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-200.png">
       <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Square71x71Logo.scale-400.png">
       <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\uwpsavefile.xr.xml">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\uwpsavefile.xr.xml">
       <PackagePath>uwpsavefile.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\Core\uwpsavefile.exe">
+    <AppxPackagedFile Include="C:\projects\UWPProject\wpfsavefile\uwpsavefile\bin\x86\Debug\Core\uwpsavefile.exe">
       <PackagePath>uwpsavefile.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
       <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23829.0</Version>
+      <Version>1.0.23819.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23829.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
       <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23829.0</Version>
+      <Version>1.0.23819.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23829.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
       <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23829.0</Version>
+      <Version>1.0.23819.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23829.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>

@@ -1,1 +1,1 @@
-C:\Users\freistli\UWPProject\wpfsavefile\uwpApplicationBase\uwpApplicationBase.csproj;x86
+C:\projects\UWPProject\wpfsavefile\uwpApplicationBase\uwpApplicationBase.csproj;x86

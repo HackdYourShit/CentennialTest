@@ -1,1 +1,1 @@
-C:\Users\freistli\UWPProject\wpfsavefile\uwpsavefile\uwpsavefile.csproj;x86
+C:\projects\UWPProject\wpfsavefile\uwpsavefile\uwpSavefile.csproj;x86

@@ -86,6 +86,7 @@ namespace uwpReflect
 
         }
 
+        //PInvoke Method to get cursor
         private void MousePosition_Click(object sender, RoutedEventArgs e)
         {
             POINT pt = new POINT();

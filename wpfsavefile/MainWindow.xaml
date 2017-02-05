@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="saveToLocal" Content="Save To Local" HorizontalAlignment="Left" Margin="57,77,0,0" VerticalAlignment="Top" Width="75" Click="saveToLocal_Click"/>
+        <Button x:Name="saveToLocal" Content="Save To Local" HorizontalAlignment="Left" Margin="57,77,0,0" VerticalAlignment="Top" Width="175" Click="saveToLocal_Click"/>
         <Button x:Name="saveToUserLocal" Content="SaveTo User Local" HorizontalAlignment="Left" Margin="57,102,0,0" VerticalAlignment="Top" Width="175" Click="saveToUserLocal_Click"/>
         <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="57,242,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button" Content="Save to Local Cache" HorizontalAlignment="Left" Margin="57,127,0,0" VerticalAlignment="Top" Width="175" Click="button_Click"/>
+        <Button x:Name="GetCurrentDirectory" Content="Get Current Directory" HorizontalAlignment="Left" Margin="57,151,0,0" VerticalAlignment="Top" Width="175" Click="GetCurrentDirectory_Click" />
+        <Button x:Name="CheckIdentity" Content="Check Identity" HorizontalAlignment="Left" Margin="57,175,0,0" VerticalAlignment="Top" Width="175" Click="CheckIdentity_Click"  />
+        <Button x:Name="CheckIdentity_V2" Content="Check Identity V2" HorizontalAlignment="Left" Margin="57,199,0,0" VerticalAlignment="Top" Width="175" Click="CheckIdentity_V2_Click"  />
 
     </Grid>
 </Window>
