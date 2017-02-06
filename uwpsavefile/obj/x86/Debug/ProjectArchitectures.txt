@@ -1,1 +1,1 @@
-C:\projects\UWPProject\wpfsavefile\uwpsavefile\uwpSavefile.csproj;x86
+C:\Projects\CentennialTest\uwpsavefile\uwpSavefile.csproj;x86

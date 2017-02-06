@@ -1,1 +1,1 @@
-C:\Users\freistli\UWPProject\wpfsavefile\uwpSerializer\uwpSerializer.csproj;x86
+C:\Projects\CentennialTest\uwpSerializer\uwpSerializer.csproj;x86

@@ -1,1 +1,1 @@
-C:\Users\freistli\UWPProject\wpfsavefile\uwpReflect\uwpReflect.csproj;x86
+C:\Projects\CentennialTest\uwpReflect\uwpReflect.csproj;x86

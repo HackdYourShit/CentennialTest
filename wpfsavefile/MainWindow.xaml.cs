@@ -29,10 +29,10 @@ namespace wpfsavefile
     public partial class MainWindow : Window
     {
         [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
-        public static extern uint GetCurrentPackageFullName(ref int length, [param: MarshalAs(UnmanagedType.LPWStr), Out()] out string name);
+        public static extern uint GetCurrentPackagePath(ref int length, StringBuilder path);
 
         [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
-        static extern int GetCurrentPackageFullName(ref int packageFullNameLength, ref StringBuilder packageFullName);
+        static extern int GetCurrentPackageFullName(ref int packageFullNameLength,  StringBuilder packageFullName);
 
         const uint APPMODEL_ERROR_NO_PACKAGE = 15700;
         const uint ERROR_INSUFFICIENT_BUFFER = 122;
@@ -167,7 +167,7 @@ namespace wpfsavefile
         {
             int length = 0;
             StringBuilder name = new StringBuilder();
-            int rc = GetCurrentPackageFullName(ref length, ref name);
+            int rc = GetCurrentPackageFullName(ref length,  name);
 
             if (rc != ERROR_INSUFFICIENT_BUFFER)
             {
@@ -178,8 +178,8 @@ namespace wpfsavefile
             else
             {
                 label.Content = "GetCurrentPackageFullName got length: " + "\n" + length;
-                name = new StringBuilder(length+1);
-                GetCurrentPackageFullName(ref length, ref name);
+                name = new StringBuilder(length);
+                GetCurrentPackageFullName(ref length,  name);
                 label.Content += "\n" + name;
             }
         }
@@ -187,8 +187,8 @@ namespace wpfsavefile
         private void CheckIdentity_V2_Click(object sender, RoutedEventArgs e)
         {
             int length = 0;
-            String name = "";
-            uint rc = GetCurrentPackageFullName( ref length, out name);
+            StringBuilder path = new StringBuilder();
+            uint rc = GetCurrentPackagePath( ref length, path);
 
             if (rc != ERROR_INSUFFICIENT_BUFFER)
             {
@@ -198,9 +198,10 @@ namespace wpfsavefile
             }
             else
             {
-                label.Content = "GetCurrentPackageFullName got length: " + "\n" + length;
-                GetCurrentPackageFullName(ref length, out name);
-                label.Content += "\n" + name;
+                label.Content = "GetCurrentPackagePath got length: " + "\n" + length;
+                path = new StringBuilder(length);
+                GetCurrentPackagePath(ref length, path);
+                label.Content += "\n" + path;
             }
         }
     }

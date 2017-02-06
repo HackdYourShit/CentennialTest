@@ -42,3 +42,17 @@ C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.csproj.Gene
 C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.exe
 C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.pdb
 C:\projects\UWPProject\wpfsavefile\wpfsavefile\obj\Debug\wpfsavefile.csprojResolveAssemblyReference.cache
+C:\Projects\CentennialTest\wpfsavefile\bin\Debug\wpfsavefile.exe.config
+C:\Projects\CentennialTest\wpfsavefile\bin\Debug\wpfsavefile.exe
+C:\Projects\CentennialTest\wpfsavefile\bin\Debug\wpfsavefile.pdb
+C:\Projects\CentennialTest\wpfsavefile\bin\Debug\Windows.winmd
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\MainWindow.g.cs
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\App.g.cs
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\wpfsavefile_MarkupCompile.cache
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\wpfsavefile_MarkupCompile.lref
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\MainWindow.baml
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\wpfsavefile.g.resources
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\wpfsavefile.Properties.Resources.resources
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\wpfsavefile.csproj.GenerateResource.Cache
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\wpfsavefile.exe
+C:\Projects\CentennialTest\wpfsavefile\obj\Debug\wpfsavefile.pdb
